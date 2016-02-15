@@ -1,9 +1,8 @@
 {
-  "firebase": "polymeriseasy",
-  "public": "",
+  "firebase": "turkupolymer",
+  "public": "/",
   "ignore": [
     "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
+    "**/.*"
   ]
 }
