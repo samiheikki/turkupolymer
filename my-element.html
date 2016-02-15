@@ -1,0 +1,16 @@
+<link rel="import" href="/bower_components/paper-input/paper-input.html">
+<link rel="import" href="/bower_components/paper-card/paper-card.html">
+<dom-module id="my-element">
+  <template>
+    <paper-input label="Your name" value="{{myname::input}}"></paper-input>
+    <paper-card heading="Hello {{myname}}!"></paper-card>
+  </template>
+  <script>
+    Polymer({
+      is: 'my-element',
+      properties: {
+        myname: String
+      }
+    });
+  </script>
+</dom-module>
